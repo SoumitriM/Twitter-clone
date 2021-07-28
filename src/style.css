@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(247, 247, 255);
+  color: rgb(24, 23, 23);
+  font-family: "Lato", "Arial";
+  font-weight: 300;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+}
+
+/*--------------------FEED SECTION ----------------------------------------*/
+input {
+  padding: 10px 0 30px 0;
+  width: 100%;
+  display: block;
+  border-radius: 30;
+  border-color: transparent;
+  margin-bottom: 20px;
+  text-indent: 20px;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 20px #719ece4d;
+  padding: auto 10px;
+}
+::placeholder {
+  font-family: "Lato", "Arial";
+}
+.profile-pic {
+  transform: translateX(40%);
+  width: 3rem;
+  height: auto;
+  border-radius: 50%;
+}
+.tweet-form {
+  margin: 10px auto;
+}
+
+.tweet {
+  margin: 20px 0;
+  font-size: 80%;
+}
+
+.tweet-header {
+  margin-bottom: 1rem;
+}
+.tweet-header li {
+  display: inline-block;
+  list-style: none;
+}
+.tweet-username,
+.tweet-userId {
+  font-weight: bold;
+  padding-right: 0.2rem;
+}
+
+.tweet-userId,
+.tweet-time {
+  font-weight: lighter;
+  color: grey;
+}
+
+.new-tweet {
+  margin-top: 20px;
+}
+
+.tweet-icons li {
+  color: rgb(74, 77, 80);
+  display: inline-block;
+  list-style: none;
+  font-size: 130%;
+  width: 25%;
+}
+
+ion-icon:hover {
+  cursor: pointer;
+}
+
+.new-tweet-icons {
+  width: 100%;
+}
+.new-tweet-icons li {
+  color: rgb(23, 121, 187);
+  display: inline-block;
+  list-style: none;
+  font-size: 130%;
+  margin-right: 20px;
+}
+
+.tweet-image {
+  width: 100%;
+  height: auto;
+}
+
+.react-count {
+  font-size: 70%;
+  color: rgb(76, 87, 94);
+}
